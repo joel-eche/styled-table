@@ -1,0 +1,69 @@
+*,
+*:before,
+*:after {
+    font-family: Overpass;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.table {
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+.table-head .row th{
+    border-bottom: 1px solid #1C1C1C;
+    padding: 28px;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 32px;
+}
+
+.table-body .row td{
+    padding: 28px;
+    border-bottom: 1px solid rgba(28, 28, 28, 0.3);
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 32px;
+}
+
+.table-head .row th:first-child{
+    padding-left: 37px;
+}
+
+.table-head .row th:last-child{
+    padding-right: 55px;
+}
+
+.table-body .row td:first-child{
+    padding-left: 37px;
+}
+
+.table-body .row td:last-child{
+    padding-right: 55px;
+}
+
+.table-body .row:last-child td{
+    border-bottom: none;
+}
+
+.row .column-company {
+    text-align: left;
+    width: 336px;
+}
+
+.row .column-phone, 
+.row .column-budget, 
+.row .column-date {
+    width: 200px;
+    text-align: right;
+}
+
+input[type="checkbox"] {
+    width: 24px;
+    height: 24px;
+}
